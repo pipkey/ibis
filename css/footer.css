@@ -1,0 +1,181 @@
+footer {
+    margin-top: 120px;
+    background-image: url(../assets/footerBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 40px 0;
+
+}
+.footer_nav .nav-link {
+    color: white;
+}
+.footer_wrapper {
+}
+.social a{
+    transition: .5s;
+    opacity: .5;
+    
+}
+.social a:hover{
+    transition: .5s;
+    opacity: 1;
+    
+}
+
+
+.footer-info {
+    margin-bottom: 30px;
+}
+.company {
+    font-size: 42px;
+    font-weight: 300;
+    letter-spacing: -0.08em;
+}
+.footer_sub-title {
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    margin-bottom: 10px;
+}
+.numbers {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.numbers a{
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: white;
+    text-decoration-line: unset;
+    transition: .5s;
+    opacity: .5;
+}
+.numbers a:hover{
+    transition: .5s;
+    opacity: 1;
+}
+.footer_email{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.footer_email a{
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: white;
+    text-decoration-line: unset;
+    transition: .5s;
+    opacity: .5;
+}
+.footer_email a:hover{
+    transition: .5s;
+    opacity: 1;
+}
+.footer_adress{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.footer_adress a{
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: white;
+    text-decoration-line: unset;
+    transition: .5s;
+    opacity: .5;
+}
+.footer_adress a:hover{
+    transition: .5s;
+    opacity: 1;
+}
+
+.copyright {
+    opacity: .7;
+}
+
+.mobile-footer{
+    display: none;
+}
+
+@media  (max-width:700px){
+    .footer-info{
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+    }
+    .col{
+        margin-bottom: 30px;
+    }
+}
+@media  (max-width:991px){
+    .numbers a{
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+    .footer_email a{
+        font-size: 1rem;
+         white-space: nowrap;
+    }
+    .footer_adress a{
+        font-size: 1rem;
+         white-space: nowrap;
+    }
+    
+}
+@media  (max-width:1000px){
+    .pc-footer{
+        display: none;
+    }
+    .mobile-footer{
+        display: block;
+        padding: 20px;
+    }
+}
+
+/* блок с текстом и соц сеями */
+.mob_wrapper{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+} 
+.mob-logo-block{
+margin-right: 10px;
+}
+/* текст IBIS */
+.mob_name{
+font-size: 10vw;
+}
+
+/* блок с данными */
+.mobile-info-block{
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.mobile-info-block > .col{
+    margin: 3%;
+}

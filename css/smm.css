@@ -1,0 +1,111 @@
+.smm-list ul li {
+    margin-bottom: 20px;
+}
+.smm-list ul {
+    padding-left: 15px;
+    margin-right: 40px;
+}
+
+.smm-list {
+    display: flex;
+    margin-top: 50px;
+}
+
+/* ?тарифы */
+.smm-tarif_wrapper {
+    margin-top: 150px;
+}
+
+/* ? арки */
+
+.arch_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Raleway;
+    font-style: normal;
+}
+.arch_item {
+    margin-top: 30px;
+    margin-right: 20px;
+    max-width: 290px;
+    position: relative;
+
+}
+
+@media (max-width:991px) {
+    .arch_item{
+        margin-left: 25%;
+    }
+}
+@media (max-width:768px) {
+    .arch_item{
+        margin-left: 15%;
+    }
+}
+.arch_item img {
+    width: 100%;
+    /* position: relative; */
+}
+.arch_text {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.arch_title {
+    margin-top: 20%;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+}
+.arch_price {
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 30px;
+}
+.arch_text ul {
+    padding-left: 50px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+.arch_text ul li {
+    margin-bottom: 10px;
+}
+
+.arch_down {
+    margin-top: 170px;
+}
+
+.mob_smm-tarif {
+    display: none;
+}
+@media (max-width: 1000px) {
+    .arch_down {
+        margin-top: 30px;
+    }
+    .arch_text ul {
+        font-size: 15px;
+    }
+}
+@media (max-width: 991px) {
+    .picture_with_red {
+        display: none;
+    }
+
+    .mobile_hundrid {
+        width: 100%;
+    }
+
+    .arch_block {
+        display: none;
+    }
+    .mob_smm-tarif {
+        display: block;
+    }
+}

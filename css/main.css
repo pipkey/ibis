@@ -1,0 +1,157 @@
+
+/* ! адаптиролван полностью */
+
+
+.main_wrapper{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2;
+    color: #333333;
+    padding-right: 15%;
+    margin-top: 50px;
+    
+}
+
+.pro-block{
+margin-right: 30px;
+}
+.pro-block img{
+    margin: 30px 0 10px 0;
+}
+
+.bice-block{
+margin-right: 55px;
+
+}
+
+.pro-text{
+    font-size: 1em;
+}
+
+/* * нижняя часть */
+.ibis__wrapper{
+    margin-top: -40px ;
+}
+.ibis__wrapper img{
+    /* width: 100%; */
+    height: auto;
+}
+
+.ring_w_text{
+    position: relative;
+    width: 30%;
+    margin-left: 155px;
+    margin-bottom: -140px;
+}
+.ring{
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+    top: -35%;
+    left: -20%;
+}
+
+.big_IBIS{
+width:100%;
+}
+
+.ibis-rectangle{
+    margin: 0;
+    width: 100%;
+}
+
+@media (max-width:1400px){
+    .ibis__wrapper{
+        margin-top: 0px ;
+    }
+    .ring_w_text{
+        margin-left: 135px;
+        margin-bottom: -130px;
+    }
+}
+@media (max-width:1200px){
+    .ring_w_text{
+        margin-left: 115px;
+        margin-bottom: -105px;  
+    }
+}
+@media (max-width:1000px){
+    .main_wrapper{
+        display: none;
+    }
+}
+@media (max-width:992px){
+    .ring_w_text{
+        margin-left: 85px;
+        margin-bottom: -80px;
+        width: 25%;
+    }
+
+    .main_wrapper{
+        margin-bottom: 0;
+    }
+    .pro-text{
+        font-size: 8px;
+    }
+}
+
+@media (max-width:767px){
+    .ring_w_text{
+        margin-left: 65px;
+    margin-bottom: -55px;
+    width: 20%;
+    }
+    .main_wrapper{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:495px){
+    .ring_w_text {
+        margin-left: 60px;
+        margin-bottom: -50px;
+        width: 20%;
+    }
+    .pro-block img{
+        width: 35px;
+    }
+    .pro-text {
+        font-size: 7px;
+    }
+    .main_wrapper{
+        padding-left: 5%;
+    }
+}
+@media (max-width:425px){
+    .ring_w_text {
+        margin-left: 50px;
+        margin-bottom: -45px;
+        width: 20%;
+    }
+}
+@media (max-width:375px){
+    .ring_w_text {
+        margin-left: 45px;
+        margin-bottom: -40px;
+        width: 25%;
+    }
+    .pro-text {
+        font-size: 6px;
+    }
+}
+@media (max-width:320px){
+    .ring_w_text {
+        margin-left: 35px;
+        margin-bottom: -30px;
+        width: 25%;
+    }
+    .pro-text {
+        font-size: 5px;
+    }
+}
