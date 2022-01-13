@@ -41,6 +41,7 @@ footer {
     line-height: 23px;
     letter-spacing: 0.01em;
     margin-bottom: 10px;
+    text-shadow: 1px 1px #dbdbdb;
 }
 .numbers {
     display: flex;
@@ -105,6 +106,9 @@ footer {
     transition: .5s;
     opacity: .5;
 }
+
+
+
 .footer_adress a:hover{
     transition: .5s;
     opacity: 1;
@@ -151,6 +155,25 @@ footer {
     .mobile-footer{
         display: block;
         padding: 20px;
+    }
+    .footer_adress a{
+        opacity: 1;
+    }
+    .footer_adress a{
+        opacity: 1;
+    }
+    /* !!!! */
+    .footer_adress a{
+        opacity: 1;
+        text-shadow: 1px 1px #dbdbdb;
+    }
+    .footer_email a{
+        opacity: 1;
+        text-shadow: 1px 1px #dbdbdb;
+    }
+    .numbers a{
+        opacity: 1;
+        text-shadow: 1px 1px #dbdbdb;
     }
 }
 

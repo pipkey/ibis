@@ -72,7 +72,7 @@
 
 
     <!-- ?Шапка сайта -->
-    <header>
+    <header class="fixed-top">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light c_nav">
           <div class="navbar-brand pc_nav">IBIS</div>
@@ -82,6 +82,80 @@
               <img src="assets/logoSmall.png" alt="" />
             </div>
           </div>
+
+            <!-- !mobile modal -->
+<!-- Button trigger modal -->
+  <button
+    type="button"
+    class="all_btn mob-btn"
+    data-bs-toggle="modal"
+    data-bs-target="#exampleModal"  
+  >
+Оставить заявку
+</button>
+<!-- Modal -->
+<div
+class="modal fade"
+id="exampleModal"
+tabindex="-1"
+aria-labelledby="exampleModalLabel"
+aria-hidden="true"
+>
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">
+        Мы свяжемся с вами в ближайшее время
+      </h5>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="modal-body">
+
+      <form >
+
+
+                  <!-- Hidden Required Fields -->
+                  <input type="hidden" name="project_name" value="smm-ibis">
+                  <input type="hidden" name="admin_email" value="mail@smm-ibis.by">
+                  <input type="hidden" name="form_subject" value="Call me">
+                  <!-- END Hidden Required Fields -->
+
+        <div class="mb-3">
+          <label for="name" class="form-label">Ваше имя</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name1"
+            name="name"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="numberPhone" class="form-label"
+            >Ваш номер телефона</label
+          >
+          <input
+            type="tel"
+            class="form-control"
+            id="numberPhone1"
+            name="numberPhone"
+            required
+          />
+        </div>
+        <button type="submit" class="all_btn">
+          Оставить заявку
+        </button>
+      </form>
+
+    </div>
+  </div>
+</div>
+</div>
 
           <button
             class="navbar-toggler"
@@ -99,11 +173,11 @@
             <!-- Button trigger modal -->
             <button
               type="button"
-              class="all_btn"
+              class="all_btn pc-btn"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
-              Отправить форму
+              Оставить заявку
             </button>
             <!-- Modal -->
             <div
@@ -160,7 +234,7 @@
                         />
                       </div>
                       <button type="submit" class="all_btn">
-                        Отправить форму
+                        Оставить заявку
                       </button>
                     </form>
 
@@ -192,11 +266,49 @@
     </header>
 
     <!-- ? первый блок -->
-    <main id="one">
+    <span id="one"></spanid>
+    <main  class="pc-main">
       <div class="container">
         <div class="main_wrapper">
 
-          <!-- TODO: необходимо в мобилке убрать блок с текстом и во всех версиях добавить социальные сети на картинку градиента -->
+          <div class="pro-block">
+            <img src="assets/PRO.png" alt="" />
+            <p class="pro-text">
+              Привлекаем клиентов из социальных сетей<br />
+              Для продвижения вашего бизнеса<br />
+              Instagram | Facebook | Вконтакте | TikTok | Youtube
+            </p>
+          </div>
+          <div class="bice-block">
+            <div class="pro-text">
+              Мы не придумываем велосипед<br />
+              Мы на нем ездим
+            </div>
+          </div>
+        </div>
+
+        <div class="ibis__wrapper">
+          <!-- <img src="assets/bigIBIS.png"  class="ibis-img" alt=""> -->
+          <div class="ring_w_text">
+            <img src="assets/text-ring.png" class="image-fluid ring" alt="" />
+            <img
+              src="assets/Mask Group (1).png"
+              class="image-fluid big_IBIS"
+              alt=""
+            />
+          </div>
+
+          <img
+            src="assets/Mask Group.png"
+            class="image-fluid ibis-rectangle"
+            alt=""
+          />
+        </div>
+      </div>
+    </main>
+    <main  class="mobile-main">
+      <div class="container-fluid">
+        <div class="main_wrapper">
 
           <div class="pro-block">
             <img src="assets/PRO.png" alt="" />
@@ -236,7 +348,7 @@
 
     <!-- ? SMM - это искусство продвижения -->
     <!-- *ГОТОВО -->
-    <!-- TODO необхоимо в мобильной версии урать картинку и выровнять текст (заголовка) по центру -->
+    
     <section id="two">
       <div class="container">
         <div class="row">
@@ -279,7 +391,6 @@
     </section>
 
     <!-- ? Тарифы SMM-->
-    <!--  TODO необходимо для мобильной версии сделать слайдер из арок а не таблицу  -->
     <section id="three">
       <div class="smm-tarif_wrapper">
         <div class="container">
@@ -519,7 +630,6 @@
 
     <!-- ? Тарифы Тик ток-->
     <section>
-      <!-- TODO нужно сделать в мобильной версии слайдер а не арки -->
       <div class="container">
         <div class="title_with_btn">
           <button class="all_btn">Заполнить бриф</button>
@@ -626,7 +736,6 @@
 
     <!-- ? Наши клиенты-->
     <!-- * ГОТОВО -->
-    <!-- TODO данный блок необходимо убрать из мобильной версии -->
     <section id="clients">
       <div class="container">
           <div class="left_title">
@@ -696,8 +805,8 @@
     </section>
 
     <!-- ? Футер сайта -->
-    <!-- todo нужно сделать его горизонтальным -->
-    <footer id="four" class="pc-footer">
+    <span id="four"></span>
+    <footer  class="pc-footer">
       <div class="container-fluid">
         <div class="footer_wrapper">
 
@@ -769,7 +878,7 @@
     </footer>
 
     <!-- ? mobile footer -->
-    <footer id="four" class="mobile-footer">
+    <footer  class="mobile-footer">
       <div class="container-fluid">
         <div class="footer_wrapper">
 

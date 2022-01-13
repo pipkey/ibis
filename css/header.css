@@ -1,6 +1,7 @@
 header{
     padding: 20px 0;
     border-bottom:1px solid #aaa ;
+    background: #f1f1f1;
 }
 .mob_nav{
     display: none;
@@ -77,11 +78,25 @@ list-style: none;
     text-decoration-line: underline;
 }
 
+.mob-btn{
+    display: none;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+    padding: 0 0 0 30px;
+}
 /* !mobile header */
 @media (max-width: 992px){
     header{
         /* padding: 20px 0; */
         border-bottom:0;
+    }
+    .pc-btn{
+        display: none;
+    }
+    .mob-btn{
+        display: block;
     }
     .navbar-nav{
         margin: 20px 0 10px;

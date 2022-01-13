@@ -1,7 +1,12 @@
 
 /* ! адаптиролван полностью */
-
-
+.pc-main{
+    margin-top: 165px;
+}
+.mobile-main{
+    display: none;
+  
+}
 .main_wrapper{
     display: flex;
     align-items: flex-end;
@@ -98,6 +103,13 @@ width:100%;
     }
     .pro-text{
         font-size: 8px;
+    }
+    .pc-main{
+        display: none;
+    }
+    .mobile-main{
+        display: block;
+        margin-top: 165px;
     }
 }
 
