@@ -1,11 +1,21 @@
 
 /* ! адаптиролван полностью */
+
+.ring_w_text p{
+    color: white;
+    opacity: .7;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+/* .ibis__wrapper{
+    background:url(../assets/mainbg.png);
+} */
+
 .pc-main{
     margin-top: 165px;
 }
 .mobile-main{
     display: none;
-  
 }
 .main_wrapper{
     display: flex;
@@ -122,6 +132,9 @@ width:100%;
     .main_wrapper{
         margin-bottom: 20px;
     }
+    .ring_w_text p{
+        font-size: 14px;
+    }
 }
 
 @media (max-width:495px){
@@ -165,5 +178,45 @@ width:100%;
     }
     .pro-text {
         font-size: 5px;
+    }
+}
+
+@media (max-width:985px) {
+    .ring_w_text {
+        margin-bottom: -160px;
+    }
+
+    .ring{
+        width: 45%;
+        top: -30% ;
+    }
+}
+@media (max-width:780px) {
+    .ring_w_text {
+        margin-bottom: -130px;
+    }
+
+    /* .ring{
+        width: 45%;
+        top: -30% ;
+    } */
+}
+@media (max-width:700px) {
+    .ring_w_text {
+        margin-bottom: -100px;
+    }
+    .ring{
+        width: 45%;
+        top: -20% ;
+    } 
+}
+@media (max-width:560px) {
+    .ring_w_text {
+        width: 25%;
+    }
+}
+@media (max-width:490px) {
+    .ring_w_text {
+        margin-bottom: -90px;
     }
 }
